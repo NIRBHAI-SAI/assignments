@@ -14,11 +14,7 @@ public class Calender {
         int[] daysInAMonth = { 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
 
         // Till condition holds true
-        while (true) {
-
-            if (d == 1 && m == month && y == year) {
-                break;
-            }
+        while (d != 1 || m != month || y != year) {
 
             dy++;//increase day
             d++;//increase date
@@ -34,7 +30,7 @@ public class Calender {
                 daysInAMonth[1] = isLeapYear(y);
             }
 
-            if (dy ==7 ) {//if day exceeds 6 drop it to 0
+            if (dy == 7) {//if day exceeds 6 drop it to 0
                 dy = 0;
             }
         }
