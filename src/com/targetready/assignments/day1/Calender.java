@@ -9,9 +9,9 @@ public class Calender {
         int y = 1;
         int dy = 0;
 
-        String days[] = { "SUN", "MON", "TUE", "WED","THU", "FRI", "SAT" };
-        String months[] = { "JANUARY", "FEBRUARY", "MARCH", "APRIL","MAY","JUNE", "JULY","AUGUST","SEPTEMBER","OCTOBER", "NOVEMBER", "DECEMBER" };
-        int daysInAMonth[] = { 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
+        String[] days = { "SUN", "MON", "TUE", "WED","THU", "FRI", "SAT" };
+        String[] months = { "JANUARY", "FEBRUARY", "MARCH", "APRIL","MAY","JUNE", "JULY","AUGUST","SEPTEMBER","OCTOBER", "NOVEMBER", "DECEMBER" };
+        int[] daysInAMonth = { 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
 
         // Till condition holds true
         while (true) {
@@ -19,7 +19,6 @@ public class Calender {
             if (d == 1 && m == month && y == year) {
                 break;
             }
-
 
             dy++;//increase day
             d++;//increase date
@@ -40,7 +39,7 @@ public class Calender {
             }
         }
 //        System.out.printf("day-date-month-year:: %s,%d,%s,%d",days[dy],d,months[m-1],year);
-        System.out.printf("MONTH : %s" , months[m]);
+        System.out.printf("MONTH : %s" , months[m-1]);
 
         daysInAMonth[1] = isLeapYear(y);
 
@@ -66,7 +65,7 @@ public class Calender {
     }
 
     private static int isLeapYear(int y) {
-        if ((y % 4 == 0 && y % 100 != 0) || y % 100 == 0) {
+        if ((y % 4 == 0 && y % 100 != 0) || y % 400 == 0) {
             return  29;
         }
         return 28;
@@ -85,8 +84,6 @@ public class Calender {
         else {
             System.out.print("INVALID MONTH OR YEAR");
         }
-
-
 
     }
 
