@@ -1,4 +1,4 @@
-package com.targetready.assignments.day1;
+package com.targetready.assignments.day2;
 
 
 public class Shapes{
