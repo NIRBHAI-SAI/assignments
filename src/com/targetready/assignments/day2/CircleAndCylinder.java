@@ -1,6 +1,5 @@
 package com.targetready.assignments.day2;
 
-import javax.swing.plaf.synth.ColorType;
 
 public class CircleAndCylinder {
 
@@ -104,7 +103,7 @@ public class CircleAndCylinder {
             System.out.println();
             System.out.printf("area of the circular region = %f ", cylinder.getArea());
             System.out.println();
-            System.out.printf("height of the cylider = %f ", cylinder.getHeight());
+            System.out.printf("height of the cylinder = %f ", cylinder.getHeight());
             System.out.println();
             System.out.printf("Volume of the cylinder = %f ", cylinder.getVolume());
             System.out.println();
