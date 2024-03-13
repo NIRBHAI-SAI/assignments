@@ -19,8 +19,6 @@ public class TextFileHandler {
         // lines[] will be null is error occurs(file not found)
         //lines will be an empty array {} if empty file is given in input
 
-
-
         if(lines != null && lines.length == 0){
             System.err.println("empty file");
 
