@@ -61,8 +61,6 @@ public class TextFileHandler {
 
              return in.lines().toArray(String[]::new);
 
-        } catch (FileNotFoundException e) {
-            System.err.println(e.getMessage());
         } catch (IOException ex) {
             System.err.println(ex.getMessage());
         }

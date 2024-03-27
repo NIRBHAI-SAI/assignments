@@ -222,7 +222,7 @@ public class Shapes{
                 System.out.println();
                 System.out.printf("Perimeter of the Circle is = %f",c1.getPerimeter());
                 System.out.println();
-                System.out.println(c1.toString());
+                System.out.println(c1);
             }
             if(shapes[i] instanceof Rectangle r1){
                 System.out.printf("Length of the Rectangle is = %f",r1.getLength());
@@ -233,7 +233,7 @@ public class Shapes{
                 System.out.println();
                 System.out.printf("Perimeter of the Rectangle is = %f",r1.getperimeter());
                 System.out.println();
-                System.out.println(r1.toString());
+                System.out.println(r1);
             }
             else if(shapes[i] instanceof Square s1){
                 System.out.printf("Side of the Square is = %f",s1.getLength());
@@ -242,7 +242,7 @@ public class Shapes{
                 System.out.println();
                 System.out.printf("Perimeter of the Rectangle is = %f",s1.getperimeter());
                 System.out.println();
-                System.out.println(s1.toString());
+                System.out.println(s1);
             }
 
             System.out.println();

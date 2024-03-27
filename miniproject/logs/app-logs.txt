@@ -1,0 +1,110 @@
+[TRACE] 2024-03-27 11:00:09,657 ui.Main starting the app...
+[ WARN] 2024-03-27 11:00:09,679 ui.Main error while creating CustomerManager
+service.ServiceException: Dao.DaoException: java.lang.ClassNotFoundException: dao.JpaCustomerDao
+	at service.CustomerManager.<init>(CustomerManager.java:26)
+	at ui.Main.<init>(Main.java:20)
+	at ui.Main.main(Main.java:120)
+Caused by: Dao.DaoException: java.lang.ClassNotFoundException: dao.JpaCustomerDao
+	at Dao.DaoFactory.getCustomerDao(DaoFactory.java:24)
+	at service.CustomerManager.<init>(CustomerManager.java:24)
+	... 2 more
+Caused by: java.lang.ClassNotFoundException: dao.JpaCustomerDao
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:375)
+	at Dao.DaoFactory.getCustomerDao(DaoFactory.java:20)
+	... 3 more
+[TRACE] 2024-03-27 11:00:43,179 ui.Main starting the app...
+[ WARN] 2024-03-27 11:00:43,188 ui.Main error while creating CustomerManager
+service.ServiceException: Dao.DaoException: java.lang.ClassNotFoundException: dao.JpaCustomerDao
+	at service.CustomerManager.<init>(CustomerManager.java:26)
+	at ui.Main.<init>(Main.java:20)
+	at ui.Main.main(Main.java:120)
+Caused by: Dao.DaoException: java.lang.ClassNotFoundException: dao.JpaCustomerDao
+	at Dao.DaoFactory.getCustomerDao(DaoFactory.java:24)
+	at service.CustomerManager.<init>(CustomerManager.java:24)
+	... 2 more
+Caused by: java.lang.ClassNotFoundException: dao.JpaCustomerDao
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:375)
+	at Dao.DaoFactory.getCustomerDao(DaoFactory.java:20)
+	... 3 more
+[TRACE] 2024-03-27 11:04:22,435 ui.Main starting the app...
+[ WARN] 2024-03-27 11:04:22,445 ui.Main error while creating CustomerManager
+service.ServiceException: Dao.DaoException: java.lang.ClassNotFoundException: dao.JpaCustomeDao
+	at service.CustomerManager.<init>(CustomerManager.java:26)
+	at ui.Main.<init>(Main.java:20)
+	at ui.Main.main(Main.java:120)
+Caused by: Dao.DaoException: java.lang.ClassNotFoundException: dao.JpaCustomeDao
+	at Dao.DaoFactory.getCustomerDao(DaoFactory.java:24)
+	at service.CustomerManager.<init>(CustomerManager.java:24)
+	... 2 more
+Caused by: java.lang.ClassNotFoundException: dao.JpaCustomeDao
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:375)
+	at Dao.DaoFactory.getCustomerDao(DaoFactory.java:20)
+	... 3 more
+[TRACE] 2024-03-27 11:04:57,489 ui.Main starting the app...
+[ WARN] 2024-03-27 11:04:57,495 ui.Main error while creating CustomerManager
+service.ServiceException: Dao.DaoException: java.lang.ClassNotFoundException: dao.JpaCustomeDao
+	at service.CustomerManager.<init>(CustomerManager.java:26)
+	at ui.Main.<init>(Main.java:20)
+	at ui.Main.main(Main.java:120)
+Caused by: Dao.DaoException: java.lang.ClassNotFoundException: dao.JpaCustomeDao
+	at Dao.DaoFactory.getCustomerDao(DaoFactory.java:24)
+	at service.CustomerManager.<init>(CustomerManager.java:24)
+	... 2 more
+Caused by: java.lang.ClassNotFoundException: dao.JpaCustomeDao
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:375)
+	at Dao.DaoFactory.getCustomerDao(DaoFactory.java:20)
+	... 3 more
+[TRACE] 2024-03-27 11:05:40,603 ui.Main starting the app...
+[TRACE] 2024-03-27 11:07:39,704 ui.Main starting the app...
+[TRACE] 2024-03-27 11:07:43,412 ui.Main user made a choice 1
+[ WARN] 2024-03-27 11:07:44,067 org.hibernate.orm.connections.pooling HHH10001002: Using built-in connection pool (not intended for production use)
+[TRACE] 2024-03-27 11:08:22,539 ui.Main user made a choice 2
+[TRACE] 2024-03-27 11:09:07,621 ui.Main user made a choice 2
+[TRACE] 2024-03-27 11:09:58,455 ui.Main user made a choice 1
+[TRACE] 2024-03-27 11:10:08,232 ui.Main user made a choice 2
+[TRACE] 2024-03-27 11:10:46,422 ui.Main user made a choice 2
+[TRACE] 2024-03-27 11:11:27,003 ui.Main user made a choice 1
+[TRACE] 2024-03-27 11:12:10,928 ui.Main ending the app.
+[TRACE] 2024-03-27 11:12:17,420 ui.Main starting the app...
+[TRACE] 2024-03-27 11:12:19,778 ui.Main user made a choice 1
+[ WARN] 2024-03-27 11:12:20,349 org.hibernate.orm.connections.pooling HHH10001002: Using built-in connection pool (not intended for production use)
+[TRACE] 2024-03-27 11:12:32,992 ui.Main ending the app.
+[TRACE] 2024-03-27 14:04:21,569 ui.Main starting the app...
+[TRACE] 2024-03-27 14:04:34,782 ui.Main user made a choice 1
+[ WARN] 2024-03-27 14:04:35,380 org.hibernate.orm.connections.pooling HHH10001002: Using built-in connection pool (not intended for production use)
+[TRACE] 2024-03-27 14:04:46,656 ui.Main user made a choice 3
+[TRACE] 2024-03-27 14:07:10,454 ui.Main starting the app...
+[TRACE] 2024-03-27 14:07:16,242 ui.Main user made a choice 1
+[ WARN] 2024-03-27 14:07:16,641 org.hibernate.orm.connections.pooling HHH10001002: Using built-in connection pool (not intended for production use)
+[TRACE] 2024-03-27 14:07:21,608 ui.Main user made a choice 3
+[TRACE] 2024-03-27 14:07:38,085 ui.Main user made a choice 2
+[TRACE] 2024-03-27 14:08:22,992 ui.Main user made a choice 4
+[TRACE] 2024-03-27 14:08:30,466 ui.Main ending the app.
+[TRACE] 2024-03-27 14:43:04,303 ui.Main starting the app...
+[TRACE] 2024-03-27 14:43:10,304 ui.Main user made a choice 1
+[ WARN] 2024-03-27 14:43:10,898 org.hibernate.orm.connections.pooling HHH10001002: Using built-in connection pool (not intended for production use)
+[TRACE] 2024-03-27 14:43:17,351 ui.Main user made a choice 4
+[TRACE] 2024-03-27 14:43:47,632 ui.Main user made a choice 1
+[TRACE] 2024-03-27 14:43:50,832 ui.Main ending the app.
+[TRACE] 2024-03-27 14:57:28,655 ui.Main starting the app...
+[TRACE] 2024-03-27 14:57:31,329 ui.Main user made a choice 1
+[ WARN] 2024-03-27 14:57:31,949 org.hibernate.orm.connections.pooling HHH10001002: Using built-in connection pool (not intended for production use)
+[TRACE] 2024-03-27 14:57:36,829 ui.Main user made a choice 6
+[TRACE] 2024-03-27 14:57:46,241 ui.Main user made a choice 6
+[TRACE] 2024-03-27 14:57:55,681 ui.Main user made a choice 5
